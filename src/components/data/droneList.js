@@ -1,0 +1,100 @@
+const droneList = [
+  {
+    id: null,
+    name: "FLY DRONE Mavic 3 Pro",
+    slogan: "Insignia",
+    precio: 2.099,
+    descripcion: "Cámara Hasselblad con CMOS 4/3 Telecámara intermedia con CMOS de 1/1.3 pulgadas Telecámara con CMOS de 1/2 pulgada",
+    img: "https://dji-official-fe.djicdn.com/cms/uploads/50e3b2ee239a7c2c04c2e1bbb16963ad.png",
+    en_la_caja: 
+      ["DJI Mavic 3 Pro",
+      "DJI RC",
+      "Batería de vuelo inteligente Serie DJI Mavic 3",
+      "Hélices de reducción de ruido (par) Serie DJI Mavic 3",
+      "Cargador portátil de 65 W DJI",
+      "Funda de almacenamiento DJI Mavic 3 Pro",
+      "Cable USB 3.0 tipo C",
+      "Palancas de control DJI RC de repuesto (par)"],
+    peso: 958,
+    autonomia: 43,
+    resolucion_max_video: '5.1K/50fps',
+    resolucion_max_foto: 48,
+    deteccion_obstaculos: 'Delantera, trasera, superior, inferior, izquierda, derecha',
+    distancia: 'Hasta 15km'
+  },
+  {
+    id: null,
+    name: "FLY DRONE Air 3",
+    slogan: "Avanzado",
+    precio: 1.099,
+    descripcion: "Cámara gran angular con CMOS de 1/1.3 pulgadas. Telecámara media con CMOS de 1/1.3 pulgadas",
+    img: "https://dji-official-fe.djicdn.com/cms/uploads/a656cc79725b55d02616072360469ffd.png",
+    en_la_caja: 
+      ["DJI Air 3",
+      "Control remoto DJI RC-N2",
+      "Batería de vuelo inteligente DJI Air 3",
+      "Hélices de reducción de ruido (par) DJI Air 3",
+      "Protector del estabilizador DJI Air 3",
+      "Cable tipo C a tipo C",
+      "Cable DJI RC-N2 RC (conector USB-C)",
+      "Cable DJI RC-N2 RC (conector Lightning)"
+      ],
+    peso: 720,
+    autonomia: 46,
+    resolucion_max_video: 'HDR 4K/60 fps; 4K/100 fps',
+    resolucion_max_foto: 48,
+    deteccion_obstaculos: 'Delantera, trasera, superior, inferior, izquierda, derecha',
+    distancia: 'Hasta 20km'
+  },
+  {
+    id: null,
+    name: "FLY DRONE Mini 4 Pro",
+    slogan: "Nuevo",
+    precio: 799,
+    descripcion: "Cámara gran angular con CMOS de 1/1.3 pulgadas",
+    img: "https://dji-official-fe.djicdn.com/cms/uploads/892e39b4b76dc5a83b267ed12ce69b97.png",
+    en_la_caja: 
+      ["DJI Mini 4 Pro",
+      "Control remoto DJI RC-N2",
+      "Batería de vuelo inteligente",
+      "Hélices de repuesto (par)",
+      "Tornillos",
+      "Destornillador",
+      "Cable DJI RC-N2 RC (conector USB-C)",
+      "Cable DJI RC-N2 RC (conector Lightning)"
+      ],      
+    peso: 249,
+    autonomia: 34,
+    resolucion_max_video: 'HDR 4K/60 fps; 4K/100 fps',
+    resolucion_max_foto: 48,
+    deteccion_obstaculos: 'Delantera, trasera, superior, inferior, izquierda, derecha',
+    distancia: 'Hasta 20km'
+  },
+  {
+    id: null,
+    name: "FLY DRONE Mini 3",
+    slogan: "Principiante",
+    precio: 469,
+    descripcion: "CMOS de 1/1.3 pulgadas",
+    img: "https://dji-official-fe.djicdn.com/cms/uploads/0e65b98eaee5cad6f74196e9594b99cd.png",
+    en_la_caja: 
+      ["DJI Mini 3",
+      "Control remoto DJI RC-N1",
+      "Cable DJI RC-N1 RC (conector USB tipo C)",
+      "Cable DJI RC-N1 RC (conector Lightning)",
+      "Cable DJI RC-N1 RC (conector micro-USB estándar)",
+      "Batería de vuelo inteligente",
+      "Hélices de repuesto (par)",
+      "Tornillos de repuesto",
+      ],
+    peso: 249,
+    autonomia: 38,
+    resolucion_max_video: '4K/30 fps',
+    resolucion_max_foto: 48,
+    deteccion_obstaculos: 'Inferior',
+    distancia: 'Hasta 10km'
+  },
+ 
+];
+
+export default droneList;

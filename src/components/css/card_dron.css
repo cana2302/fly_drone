@@ -1,0 +1,17 @@
+.contenedor_card {
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px;
+  border: 1px solid rgb(173, 171, 171);
+  color: black;
+  text-decoration: none;
+
+  /*display: inline-block;*/
+  margin: 1% 10% 1% 10%; /* Agrega espacio alrededor del contenido */
+  text-align: center; /* Centra el contenido */
+
+}
+
+.imagen {
+  width: 350px;
+  height: 290px;
+}

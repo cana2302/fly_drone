@@ -1,0 +1,23 @@
+.cuerpo_body {
+  background-color: white;
+  color: black;
+}
+
+.titulo {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.titulo h2 {
+  font-size: 30px;
+}
+
+.titulo a {
+  font-size: 20px;
+}
+
+.contenedor_tarjetas{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
