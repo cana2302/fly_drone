@@ -4,19 +4,18 @@ import Head_flyDrone from './components/Head_flyDrone.jsx';
 import Home from './components/Home.jsx';
 import articulosDisponibles from './components/data/articulosDisponibles.jsx';
 import Descripcion from './views/Descripcion_dron.jsx';
+import Footer from './components/Footer.jsx';
 
 function App() {
 
-  ///////////////////////////////////////////
-
+  //Lista con 1 objeto (contiene path y elemento a renderizar)
   const routes = [
     { 
       ruta: <Route path= "/" element= {<Home />} />
     }
   ];
 
-  console.log(routes);
-
+  //Se agrega a la lista 1 objeto por cada ID disponible (con su path y elemento correspondiente)
   articulosDisponibles.forEach((articulosDisponibles) => {
     routes.push(
       {
@@ -24,10 +23,7 @@ function App() {
       }
     );
   });
-
-  console.log(routes);
   
-  ///////////////////////////////////////////
   return (
     <div className='cuerpo_body'>
 
@@ -36,15 +32,17 @@ function App() {
       <Routes>
         
         <Route path= "/" element= {<Home />} />
-        
+
         {routes.map((ruta, index) => (
            <Route key={index} path={ruta.ruta.props.path} element={ruta.ruta.props.element} />
         ))}
 
       </Routes>
 
+      <Footer />
+
     </div>
   );
 }
 
-export default App
+export default App;

@@ -1,11 +1,16 @@
 import React from 'react';
 import './css/head_flyDrone.css';
 import { Link } from 'react-router-dom';
+import imagenPortada from '../assets/unsplash.png';
 
 function Head_flyDrone() {
 
   return (
-    
+    <>
+    <div className='portada'>
+      <img src={imagenPortada} alt="imagen_portada" />
+    </div>
+
     <div className='head'>
 
       <div className='fly_drone'>
@@ -26,7 +31,8 @@ function Head_flyDrone() {
       </div>
 
     </div>
-    
+
+    </>
   )
 }
 
