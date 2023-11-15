@@ -1,0 +1,5 @@
+.contenedor_tarjetas{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
