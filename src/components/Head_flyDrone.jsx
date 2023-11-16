@@ -1,7 +1,7 @@
 import React from 'react';
 import './css/head_flyDrone.css';
 import { Link } from 'react-router-dom';
-import imagenPortada from '../assets/unsplash.png';
+import imagenPortada from '../assets/img_2.png';
 
 function Head_flyDrone() {
 
@@ -17,17 +17,23 @@ function Head_flyDrone() {
         Fly Drone
       </div>
 
-      <div className='elemento_head'>
-        <ul className='elemento_head'>
-          
+      <div className='contenedor_menu'>
+
+        <ul className='ul_menu'>          
           <Link to="/" className='link'>
-            <li>Inicio</li>
+            <li className='li_menu'>Inicio</li>
           </Link>
-          <li>Productos</li>
-          <li>Contactanos</li>
-          <li>Acerca de</li>
-            
+          <Link to="/productos" className='link'>
+            <li className='li_menu'>Productos</li>
+          </Link>  
+          <Link to="/contactanos" className='link'>
+            <li className='li_menu'>Contactanos</li>
+          </Link>  
+          <Link to="/acerca_de" className='link'>
+            <li className='li_menu'>Acerca de</li>
+          </Link>      
         </ul>
+
       </div>
 
     </div>

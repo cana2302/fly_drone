@@ -1,15 +1,17 @@
 .contenedor_card {
   background-color: rgb(255, 255, 255);
-   box-shadow: 0.25rem 0.23rem 0.8rem rgba(86, 129, 203, 0.12);
+  box-shadow: 0.25rem 0.23rem 0.8rem rgba(86, 129, 203, 0.12);
   border-radius: 20px;
   border: 1px solid rgb(216, 215, 215);
   color: black;
   text-decoration: none;
 
-  /*display: inline-block;*/
   margin: 1% 10% 1% 10%; /* Agrega espacio alrededor del contenido */
   text-align: center; /* Centra el contenido */
+}
 
+.contenedor_card:hover {
+  box-shadow: 0.25rem 0.23rem 1rem rgb(216, 212, 91);
 }
 
 .imagen {

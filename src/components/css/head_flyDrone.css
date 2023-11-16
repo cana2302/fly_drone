@@ -1,17 +1,17 @@
 .portada {
-  height: auto;
+  
 }
 
 .portada img {
+  height: 8.5%;
   width: 100%;
-  height: 10rem;
 }
 
 .head {
   background-color: rgb(255, 255, 255);
-  border-bottom: 0.1rem solid rgb(173, 168, 168);
+  border-bottom: 0.01rem solid rgb(173, 168, 168);
   height: 3.8rem;
-  width: 100%;
+  width: 100vw;
   color: rgb(0, 0, 0);
   display: flex;
   align-items: center;
@@ -27,26 +27,58 @@
   color: white;
   background-color: rgb(52, 51, 51);
   box-shadow: 0.2rem 0.2rem 0.5rem rgb(44, 110, 224, 0.25);
-  border: 0.1rem solid grey;
+  border: 0.01rem solid grey;
   border-radius:  0.7rem;
   justify-content: center;
   align-items: center;
   height: 2.3rem;
-  width: 8rem;
+  width: 12%;
+  font-size: 18px;
 
 }
 
-.elemento_head {
-  list-style: none;
+.contenedor_menu {
+  width: 50%;
+  font-size: 16px;
+}
+
+.ul_menu {
   display: flex;
-}
-
-.elemento_head li {
-  padding-right: 2.5rem; /* 25px; /* Ajusta el valor según sea necesario */
-  font-size: 1rem;
+  list-style: none;
 }
 
 .link {
   text-decoration: none;
   color: black;
+  width: ;
+}
+
+.li_menu {
+  padding-right: 2.5vw; /* 25px; */
+}
+
+.li_menu:hover {
+  color: rgba(49, 49, 178, 0.892);
+}
+
+
+/* Regla de medios para pantallas medianas */
+@media screen and (max-width: 1200px) {
+  body {
+    font-size: 14px;
+  }
+}
+
+/* Regla de medios para pantallas pequeñas (por ejemplo, tablets) */
+@media screen and (max-width: 800px) {
+  body {
+    font-size: 12px;
+  }
+}
+
+/* Regla de medios para pantallas muy pequeñas (por ejemplo, móviles) */
+@media screen and (max-width: 600px) {
+  body {
+    font-size: 10px;
+  }
 }
