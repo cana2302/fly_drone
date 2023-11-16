@@ -1,7 +1,8 @@
 .contenedor_card {
   background-color: rgb(255, 255, 255);
+   box-shadow: 0.25rem 0.23rem 0.8rem rgba(86, 129, 203, 0.12);
   border-radius: 20px;
-  border: 1px solid rgb(173, 171, 171);
+  border: 1px solid rgb(216, 215, 215);
   color: black;
   text-decoration: none;
 
