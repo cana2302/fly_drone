@@ -1,5 +1,5 @@
-.portada {
-  
+.contenedor {
+  font-size: 14px;
 }
 
 .portada img {
@@ -23,7 +23,7 @@
 
 .fly_drone {
   display: flex;
-  margin: 0rem 1rem 0rem 0rem;
+  margin: 0rem 1rem 0rem 9rem;
   color: white;
   background-color: rgb(52, 51, 51);
   box-shadow: 0.2rem 0.2rem 0.5rem rgb(44, 110, 224, 0.25);
@@ -45,40 +45,80 @@
 .ul_menu {
   display: flex;
   list-style: none;
+  
 }
 
 .link {
   text-decoration: none;
   color: black;
-  width: ;
-}
-
-.li_menu {
   padding-right: 2.5vw; /* 25px; */
 }
 
+.li_menu {
+  
+  font-size: 16.5px;
+  color: #000000;
+  font-family: inherit;
+  font-weight: 800;
+  cursor: pointer;
+  position: relative;
+  border: none;
+  background: none;
+  text-transform: uppercase;
+  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition-duration: 400ms;
+  transition-property: color;
+}
+
+.li_menu:focus,
+.li_menu:hover {
+  color: #000000;
+  /*color: rgba(49, 49, 178, 0.892);*/
+}
+
+.li_menu:focus:after,
+.li_menu:hover:after {
+  width: 100%;
+  left: 0%;
+}
+
+.li_menu:after {
+  content: "";
+  pointer-events: none;
+  bottom: -2px;
+  left: 50%;
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  background-color: #000000;
+  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition-duration: 400ms;
+  transition-property: width, left;
+}
+
+/*
 .li_menu:hover {
   color: rgba(49, 49, 178, 0.892);
 }
-
+*/
 
 /* Regla de medios para pantallas medianas */
 @media screen and (max-width: 1200px) {
-  body {
+  .contenedor {
     font-size: 14px;
   }
 }
 
 /* Regla de medios para pantallas pequeñas (por ejemplo, tablets) */
 @media screen and (max-width: 800px) {
-  body {
+  .contenedor {
     font-size: 12px;
   }
 }
 
 /* Regla de medios para pantallas muy pequeñas (por ejemplo, móviles) */
 @media screen and (max-width: 600px) {
-  body {
+  .contenedor {
     font-size: 10px;
   }
 }
